@@ -561,6 +561,30 @@ background:#232434;
 color:#fff;
 border: 1px solid #232434;
 }
+
+.cta_btn {
+background: #none;
+border: 1px solid #232434;
+border-radius:0px;
+color: #232434;
+display: inline-block;
+font-size: 16px;
+overflow: hidden;
+padding:12px 30px;
+text-transform: capitalize;
+-webkit-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+}
+@media only screen and (max-width:360px) { 
+.cta_btn {padding: 10px 40px;}
+}
+.cta_btn:hover, .cta_btn:focus{
+background:#7564E5;
+color:#fff;
+border: 1px solid #7564E5;
+}
+
 /*START OTHER HOME PAGE CSS*/
 #particles-js {
     position: absolute;
