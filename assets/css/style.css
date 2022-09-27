@@ -2318,6 +2318,56 @@ width: 100%;
 color: #fff;
 font-weight: 600;
 }
+
+/* Toggle button */
+.toggle-btn {
+	position: relative;
+	display: block;
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+	text-align: left;
+	margin-bottom: 5px;
+}
+  
+.arrow {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+}
+  
+.arrow::before,
+.arrow::after {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 10px;
+	height: 1px;
+	background: black;
+	transition: 0.3s ease-in-out;
+}
+  
+.arrow::before {
+	transform: rotate(45deg);
+}
+  
+.arrow::after {
+	left: 6px;
+	top: -1px;
+	transform: rotate(-45deg);
+}
+  
+.toggle-btn {
+	background: none;
+}
+  
+.toggle-btn.active .arrow::before {
+	transform: rotate(-45deg);
+}
+  
+  .toggle-btn.active .arrow::after {
+	transform: rotate(45deg);
+  }
 /*
  * ----------------------------------------------------------------------------------------
  * 15.END SECTION TOP DESIGN

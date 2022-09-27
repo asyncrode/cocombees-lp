@@ -130,6 +130,17 @@
 	</section>
 	<!-- END  HOME -->
 
+	<!-- Start Timer -->
+	<section class="partner-logo section-padding">
+		<div class="container">
+			<div class="text-center">
+				<a href="https://logwork.com/countdown-w5dw" class="countdown-timer" data-style="flip"
+					data-timezone="Asia/Jakarta" data-date="2022-10-03 00:00" data-background="#000">Countdown</a>
+			</div>
+		</div>
+	</section>
+	<!-- END -->
+
 	<!-- START Section 3-->
 	<section id="section3" class="about-content section-padding">
 		<div class="container">
@@ -547,49 +558,73 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h1 class="mt-4">FAQ</h1>
-				<p>Frequenly Asked Questions</p>
+				<p>Frequently Asked Questions</p>
 			</div>
-			<div class="row">
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="single_service">
-						<h3>Lorem ipsum dolor sit amet ?</h3>
-						<p>Veniam incididunt ipsum eiusmod irure laborum fugiat. Consequat officia minim ea non.</p>
+			<div class="card bg-white border-secondary shadow-sm mb-4">
+				<div class="card-body">
+					<a class="toggle-btn" data-toggle="collapse" data-target="#faq1" aria-expanded="false"
+						aria-controls="faq1">
+						<b>Lorem Ipsum is simply dummy text of the printing and typesetting industry ?</b>
+						<span class="arrow"></span>
+					</a>
+				</div>
+				<div class="collapse" id="faq1">
+					<div class="card-body text-secondary" style="padding-top: 0px;">
+						<p style="padding-left: 10px; padding-right: 10px;">Incididunt commodo quis qui qui adipisicing
+							dolore sit duis. Lorem ullamco veniam anim ad minim aliquip commodo Lorem reprehenderit duis
+							est irure.</p>
 					</div>
 				</div>
-				<!--END COL -->
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="single_service">
-						<h3>Lorem ipsum dolor sit amet ?</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae accusantium consectetur.</p>
-					</div>
-				</div>
-				<!--END COL -->
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="single_service">
-						<h3>Lorem ipsum dolor sit amet ?</h3>
-						<p>Non nostrud pariatur labore ad consequat aliquip. Est occaecat duis in cupidatat dolor
-							commodo officia.</p>
-					</div>
-				</div>
-				<!--END COL -->
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="single_service">
-						<h3>Lorem ipsum dolor sit amet ?</h3>
-						<p>Excepteur deserunt reprehenderit excepteur excepteur anim quis exercitation laboris
-							cupidatat.</p>
-					</div>
-				</div>
-				<!--END COL -->
-				<div class="col-md-6 col-sm-6 col-xs-12 mx-auto">
-					<div class="single_service">
-						<h3>Lorem ipsum dolor sit amet ?</h3>
-						<p>Est exercitation occaecat magna ipsum nisi veniam velit ea quis irure commodo culpa. Beatae
-							accusantium consectetur.</p>
-					</div>
-				</div>
-				<!--END COL -->
 			</div>
-			<!--END ROW -->
+			<div class="card bg-white border-secondary shadow-sm mb-4">
+				<div class="card-body">
+					<a class="toggle-btn" data-toggle="collapse" data-target="#faq2"
+						aria-expanded="falria-controls= faq2">
+						<b>Lorem Ipsum is simply dummy text of the printing and typesetting industry ?</b>
+						<span class="arrow"></span>
+					</a>
+				</div>
+				<div class="collapse" id="faq2">
+					<div class="card-body text-secondary" style="padding-top: 0px;">
+						<p style="padding-left: 10px; padding-right: 10px;">Officia incididunt Lorem consequat est
+							eiusmod id. Nisi officia elit et officia deserunt amet deserunt. Duis eu esse officia
+							officia fugiat ex ut eiusmod.</p>
+					</div>
+				</div>
+			</div>
+			<div class="card bg-white border-secondary shadow-sm mb-4">
+				<div class="card-body">
+					<a class="toggle-btn" data-toggle="collapse" data-target="#faq3"
+						aria-expanded="falria-controls= faq3">
+						<b>Lorem Ipsum is simply dummy text of the printing and typesetting industry ?</b>
+						<span class="arrow"></span>
+					</a>
+				</div>
+				<div class="collapse" id="faq3">
+					<div class="card-body text-secondary" style="padding-top: 0px;">
+						<p style="padding-left: 10px; padding-right: 10px;">Cillum esse esse ea excepteur cupidatat
+							aliqua laboris. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur illo
+							cum aut! Quod, earum in consequuntur unde, nulla ratione ad perferendis aperiam quidem
+							suscipit repellat ea itaque eius sequi ducimus.</p>
+					</div>
+				</div>
+			</div>
+			<div class="card bg-white border-secondary shadow-sm mb-4">
+				<div class="card-body">
+					<a class="toggle-btn" data-toggle="collapse" data-target="#faq4"
+						aria-expanded="falria-controls= faq4">
+						<b>Lorem Ipsum is simply dummy text of the printing and typesetting industry ?</b>
+						<span class="arrow"></span>
+					</a>
+				</div>
+				<div class="collapse" id="faq4">
+					<div class="card-body text-secondary" style="padding-top: 0px;">
+						<p style="padding-left: 10px; padding-right: 10px;">Ut nisi aliqua labore consequat laborum qui
+							sint. Mollit nulla laborum reprehenderit proident tempor magna pariatur sit fugiat. Do
+							cupidatat Lorem ullamco amet proident quis anim incididunt laborum et reprehenderit.</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!--END CONTAINER -->
 	</div>
@@ -689,6 +724,14 @@
 	<script src="assets/js/slick.min.js"></script>
 	<!-- scripts js -->
 	<script src="assets/js/scripts.js"></script>
+
+	<script type="text/javascript">
+		$('.toggle-btn').on('click', function () {
+			$(this).toggleClass('active')
+		});
+	</script>
+	<script src="https://cdn.logwork.com/widget/countdown.js"></script>
+
 </body>
 
 </html>
