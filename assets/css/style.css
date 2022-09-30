@@ -150,10 +150,15 @@ fieldset {
 
 @media only screen and (max-width:480px) { 
 .section-title  h1  {
-font-size:24px;
-line-height: 32px;
-font-weight:500;
+	font-size:24px;
+	line-height: 32px;
+	font-weight:500;
+	}
 }
+@media only screen and (max-width:480px) { 
+	p{
+		font-size: 12px;
+		}
 }
 h1.section-title-white{color:#fff;}
 h4.section-title-white{color:#fff;}
@@ -1036,7 +1041,8 @@ text-transform: capitalize;
 .single_service span {	
 width: 60px;
 height: 60px;
-line-height: 60px;}
+line-height: 60px;
+}
 }
 .single_service h3 {
 	font-weight: 600;
