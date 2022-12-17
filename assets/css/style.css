@@ -803,7 +803,7 @@ z-index:100;
 
 /*START ABOUT TWO*/
 .about-content-two-r {
-	background-image: url(../img/bg//bg-intro-about-r.png);
+	background-image: url(../img/bg/bg-intro-about-r.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -812,7 +812,7 @@ z-index:100;
 
 .about-two-img{text-align: center;}
 .about-two img{}
-.about-two{padding-top: 150px;}
+/* .about-two{padding-top: 150px;} */
 @media only screen and (max-width:768px) { 
 .about-two{padding-top:30px;}
 }
@@ -1138,6 +1138,7 @@ width: 100px;
 }
 .single-project .sp-img {
     position: relative;
+	width: fit-content;
 }
 
 .single-project .sp-hover {
@@ -2418,12 +2419,13 @@ td a:hover {
 }
 
 /* Responsive Logo */
-@media only screen and (max-width:480px) { 
+@media only screen and (max-width:740px) { 
 	.site-logo  img  {
 	width: auto;
 	height: 55px;	
 	}
 }
+
 
 
 /*
