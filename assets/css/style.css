@@ -1447,10 +1447,22 @@ video {
 .single-team {
   position: relative;
   border-radius: 10px;
+  height: 420px;
+  width: 400px;
+  float: right;
+}
+@media only screen and (max-width: 991px) {
+  .single-team {
+    margin-bottom: 30px;
+    float: none;
+    margin: auto;
+  }
 }
 @media only screen and (max-width: 768px) {
   .single-team {
     margin-bottom: 30px;
+    float: none;
+    margin: auto;
   }
 }
 .single-team::before {
@@ -1699,12 +1711,12 @@ video {
 .single-testimonial {
 }
 .single-testimonial img {
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: 400px;
   margin-bottom: 20px;
-  border-radius: 100px;
+  /* border-radius: 100px; */
   display: inline-block;
-  border: 5px solid #fff;
+  /* border: 5px solid #fff; */
 }
 .single-testimonial h4 {
   color: #fff;
@@ -2748,15 +2760,17 @@ td a:hover {
   }
 }
 
+
 .screenshot_slider .owl-item .item img {
   -webkit-transition: 0.3s;
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  /* -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1); */
   -o-transition: 0.3s;
   transition: 0.3s;
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
   transform: scale(0.8);
+  
 }
 
 .screenshot_slider .owl-item.center .item img {
@@ -2889,6 +2903,122 @@ td a:hover {
   padding: 0 !important;
 }
 
+/* popup */
+.img-thumbnail {
+  display: none;
+  padding: 0.25rem;
+  background-color: #f8fafc;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.mentor-title {
+  margin-bottom: 60px;
+  display: grid;
+  align-self: center;
+}
+.mentor-title h1 {
+  font-size: 44px;
+  font-weight: 500;
+  margin-top: 0;
+  position: relative;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+  .mentor-title h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  p {
+    font-size: 12px;
+  }
+}
+h1.mentor-title-white {
+  color: #fff;
+}
+h4.mentor-title-white {
+  color: #fff;
+}
+.mentor-title p {
+  padding: 0 10px;
+  width: 70%;
+  letter-spacing: 1px;
+}
+p.mentor-title-white {
+  color: #fff;
+}
+@media only screen and (max-width: 991px) {
+  .mentor-title p {
+    padding: 0 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mentor-title p {
+    padding: 0 10px;
+    width: 90%;
+    margin: auto;
+  }
+}
+.cta_bg {
+  height: 550px;
+  position: relative;
+  background: #0d5360;
+  padding: 2.5em;
+}
+@media only screen and (max-width: 1200px) {
+  .cta_bg {
+    height: 480px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cta_bg {
+    height: 390px;
+  }
+}
+.cta_bg img {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .cta_bg {
+    height: 540px;
+  }
+  .cta_bg img {
+    width: 100%;
+    height: 300px;
+  }
+}
+.cta_text {
+  margin: auto 0;
+}
+.cta_text h1 {
+  color: #fff;
+}
+
+.cta_button {
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 12px 30px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
 /*
  * ----------------------------------------------------------------------------------------
  * 15.END SECTION TOP DESIGN
