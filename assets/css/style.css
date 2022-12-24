@@ -2760,7 +2760,6 @@ td a:hover {
   }
 }
 
-
 .screenshot_slider .owl-item .item img {
   -webkit-transition: 0.3s;
   /* -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
@@ -2770,7 +2769,6 @@ td a:hover {
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
   transform: scale(0.8);
-  
 }
 
 .screenshot_slider .owl-item.center .item img {
@@ -3019,6 +3017,62 @@ p.mentor-title-white {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+.cta_btn {
+  width: 100%;
+}
+
+.ctaa_btn {
+  background: #fff;
+  border: 2px solid #0d5360;
+  border-radius: 0px;
+  color: #1a2124ff;
+  display: inline-block;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 15px 25px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  z-index: 30;
+}
+@media only screen and (max-width: 360px) {
+  .ctaa_btn {
+    padding: 10px 40px;
+  }
+}
+.ctaa_btn:hover {
+  background: #0d5360;
+  color: #fff;
+  border: 1px solid #0d5360;
+}
+
+.ctaa2_btn {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 15px 25px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  z-index: 30;
+}
+@media only screen and (max-width: 360px) {
+  .ctaa2_btn {
+    padding: 10px 40px;
+  }
+}
+.ctaa2_btn:hover {
+  background: #9f762eff;
+  color: #fff;
+  border: 1px solid #9f762eff;
+}
+
 /*
  * ----------------------------------------------------------------------------------------
  * 15.END SECTION TOP DESIGN
