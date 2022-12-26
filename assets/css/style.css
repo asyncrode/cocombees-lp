@@ -1456,6 +1456,7 @@ video {
     margin-bottom: 30px;
     float: none;
     margin: auto;
+    width: auto;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1463,6 +1464,7 @@ video {
     margin-bottom: 30px;
     float: none;
     margin: auto;
+    width: auto;
   }
 }
 .single-team::before {
@@ -1562,6 +1564,7 @@ video {
 @media only screen and (max-width: 480px) {
   .our_pricing {
     background-size: auto;
+    /* width: 100vh; */
   }
 }
 .pricingTable {
@@ -1608,7 +1611,7 @@ video {
   font-size: 170px;
   line-height: 112px;
   position: relative;
-  color: #e4f1ff;
+  color: #000;
   margin: 40px 0;
 }
 @media only screen and (max-width: 768px) {
@@ -2783,9 +2786,10 @@ td a:hover {
 }
 
 .screenshot_slider .owl-nav button {
-  font-size: 24px !important;
+  font-size: 30px !important;
   margin: 10px;
   color: #0d5360 !important;
+  outline: none;
 }
 
 /*--------------------------------------------------------------
@@ -2853,7 +2857,7 @@ td a:hover {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #2487ce;
+  color: #0d5360;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -3017,9 +3021,6 @@ p.mentor-title-white {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-.cta_btn {
-  width: 100%;
-}
 
 .ctaa_btn {
   background: #fff;
@@ -3027,7 +3028,8 @@ p.mentor-title-white {
   border-radius: 0px;
   color: #1a2124ff;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 400;
   overflow: hidden;
   padding: 15px 25px;
   text-transform: capitalize;
@@ -3053,7 +3055,8 @@ p.mentor-title-white {
   border-radius: 0px;
   color: #fff;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 400;
   overflow: hidden;
   padding: 15px 25px;
   text-transform: capitalize;
